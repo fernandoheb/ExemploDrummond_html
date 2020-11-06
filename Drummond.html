@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carlos drummond de Andrade </title>
+    <!--CSS - Cascade Style Sheet-->
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    <div class="painel author ">
+        <div class="inv direita">
+            <h1>Carlos drummond de Andrade</h1>
+        </div>
+    </div>
+    <div class="painel drummond">
+        <p> <a href="https://pt.wikipedia.org/wiki/Carlos_Drummond_de_Andrade" title="Saiba mais sobre o autor"><strong>Carlos Drummond de Andrade</strong></a>
+           foi um poeta, contista e cronista brasileiro, considerado por muitos o mais influente poeta brasileiro do século XX.
+           Drummond foi um dos principais poetas da segunda geração do Modernismo brasileiro.
+           <small><a href="https://pt.wikipedia.org/wiki/Carlos_Drummond_de_Andrade" 
+               target ="_blank"
+               title="Saiba mais sobre o autor">
+                   Wikipedia </a> </small>
+        </p>
+    </div>
+    <div id="lista_nao_ordenada"  class="painel">
+        <h2> Lista de Obras </h2>
+        <ul class="poetas">
+            <li class="destaque"> Quadrilha - Alguma Poesia - 1930 </li>
+            <li> Os ombros suportam o mundo - Sentimento do Mundo -1940 </li>
+            <li> Amar - Claro enigma - 1951 </li>
+            <li> Memória - Claro enigma - 1951 </li>
+            <li> Ser - Claro enigma - 1951 </li>
+            <li> Destruição -Lição de Coisas - 1962</li>
+            <li> Ausência - Obra poética - 1989 </li>
+        </ul>
+    </div>
+    <div class="painel">
+        <table class="poetas">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Livro</th>
+                    <th>Ano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <a href="obras.html#quadrilha" target="_blank" title="leia a obra"> Quadrilha </a> </td>
+                    <td> Alguma Poesia </td>
+                    <td>1930</td>
+                </tr>
+                <tr>
+                    <td><a href="obras.html#ombros" target="_blank" title="leia a obra">  Os ombros suportam o mundo </a></td>
+                    <td> Sentimento do Mundo </td>
+                    <td> 1940 </td>
+                </tr>
+                <tr>
+                    <td><a href="obras.html#amar" target="_blank" title="leia a obra">  Amar </a> </td>
+                    <td rowspan="3"> Claro enigma </td>
+                    <td rowspan="3"> 1951 </td>
+                </tr>
+                <tr>
+                    <td> <a href="obras.html#memoria" target="_blank" title="leia a obra">  Memória </a> </td>
+                </tr>
+                <tr>
+                    <td><a href="obras.html#ser" target="_blank" title="leia a obra">  Ser </a> </td>
+                </tr>
+                <tr>
+                    <td><a href="obras.html#destruicao" target="_blank" title="leia a obra">  Destruição </a></td>
+                    <td> Lição de Coisas </td>
+                    <td> 1962 </td>
+                </tr>
+                <tr>
+                    <td><a href="obras.html#ausencia" target="_blank" title="leia a obra">  Ausência </a> </td>
+                    <td> Obra poética </td>
+                    <td> 1989 </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"> Antologia poética </td>
+                    <td>2000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div id="lista_ordenada"  class="painel">
+        <h2> Preferidas </h2>
+        <ol>
+            <li> <a href="obras.html#amar" title="leia a obra">  Amar </a>  </li>
+            <li> <a href="obras.html#ausencia" title="leia a obra">  Ausência </a> </li>
+            <li> <a href="obras.html#destruicao" title="leia a obra">  Destruição </a> </li>
+        </ol>
+    </div>
+    
+    <div id="obras" class="painel">
+        <h2> Leia as obras </h2>
+        <button onclick="document.location='obras.html'" id="btnLink" title="Visite o acervo de obras"> Visite as obras do autor </button> 
+       
+        <iframe class="frame" src="obras.html"  >
+            
+        </iframe>
+    </div>
+    
+    
+    
+</body>
+
+</html>
