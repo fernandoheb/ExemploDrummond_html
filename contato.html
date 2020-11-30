@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fale conosco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playball&display=swap" >
+    <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="painel"> 
+        <form name="Form1" method="GET" action="Pagina3.html" >            
+            <label for='nome'> Nome: </label>
+            <input type="text" name="nome" id='text' 
+                   placeholder="Insira seu nome" required>
+            <br>
+            <label for='nome'> Senha: </label>
+            <input type="password" name="nome" id='text' 
+                   placeholder="Insira sua senha" required>
+             <br>
+            <label for='email1'> Email: </label>
+            <input type="email" autocomplete="off" name="email1" id='email'  
+                   placeholder="Digite seu email @gmail.com" required>
+           
+            <br>
+            <br>
+            <label for='assunto'> Assunto: </label>
+            <input type="text" name="assunto" id='text' 
+                   placeholder="Digite o assunto do email"
+                   size="50"
+                   required>
+            <br>
+            <br>
+            <label for='mensagem'> Mensagem </label>
+            <br>
+            <textarea name="mensagem" id='text' 
+                   placeholder="Digite o conteúdo do email"
+                   rows="4" cols="60"
+                   required></textarea>
+            <br>
+            <br>
+             <input type="submit" name="funcao" value="cadastro">
+             <input type="reset" value="cancelar">
+        </form>
+        </div>
+    </body>
+</html>
