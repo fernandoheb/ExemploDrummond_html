@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Carlos drummond de Andrade </title>
         <!--CSS - Cascade Style Sheet-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playball&display=swap" >
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playball&display=swap" >
 
-        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.cs">
-        <script src="css/bootstrap/js/bootstrap.min.js"></script> 
+        
+      <link href="bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js" type="text/javascript"></script>
+     
         <link rel="stylesheet" href="css/estilo.css">
 
 
@@ -17,8 +19,7 @@
     <body>
 
 
-
-
+        
         <div class="container">
             <div class="row">
                 <div class="offset-sm-4  col-sm-4 painel author ">
@@ -55,12 +56,12 @@
                 </ul>
             </div>
             <div class="painel">
-                <table class="poetas">
-                    <thead>
+                <table class=" table table-light table-hover   table-striped       poetas">
+                    <thead class="thead-dark">
                         <tr>
-                            <th>Título</th>
-                            <th>Livro</th>
-                            <th>Ano</th>
+                            <th scope="col" >Título</th>
+                            <th scope="col">Livro</th>
+                            <th scope="col">Ano</th>
                         </tr>
                     </thead>
                     <tbody>
